@@ -1,8 +1,31 @@
+/* header{
+    visibility: inherit;
+    opacity: 1;
+    transform: translate(0%, -100%);
+}
+
+.c-site-head__nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    pointer-events: all;
+    position: relative;
+    z-index: 2;
+}
+
+.c-site-head-menu__item {
+    position: relative;
+    display: block;
+    margin-right: 1.5rem;
+    overflow: hidden;
+    z-index: 2;
+} */
+
 .hero-vid video{
     object-fit: cover;
 }
 
-.hero-vid .hero-vid video{
+.hero-vid .hero-vid video {
     position: absolute;
     top: 0;
     left: 0;
