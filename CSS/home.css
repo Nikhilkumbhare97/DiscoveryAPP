@@ -24,9 +24,15 @@ body {
 
 .logo {
     position: absolute;
+    top: 8%;
+    left: 10%;
+    height: 150px;
+    width: 40%;
+    padding: auto;
+    z-index: 1000;
 }
 
-.head-nav-menu{
+.head-nav-menu {
     position: absolute;
     top: 0;
     left: 50%;
@@ -78,15 +84,16 @@ body {
 
 .part2 {
     position: relative;
-    padding: 9%;
+    padding: 8% 9% 9% 9%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .part2-block1-1 {
     padding: 0 0 20% 5%;
 }
+
+
 
 .part2-title1 {
     font-family: 'GT Sectra Book';
@@ -110,7 +117,7 @@ body {
     line-height: 2em;
 }
 
-/* .part3 {
+.part3 {
     position: relative;
 }
 
@@ -143,4 +150,31 @@ body {
     left: 0;
     width: 10%;
     height: 100%;
-} */
+}
+
+.part6 {
+    background-color: #161f1e;
+    width: 100%;
+}
+
+.footers {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 2%
+}
+
+.footer-part2{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-context {
+    padding-top: 100%;
+    color: white;
+}
+
+.foot-nav-item {
+    text-decoration: none;
+    color: white;  
+}
