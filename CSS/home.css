@@ -1,3 +1,7 @@
+@import url(//db.onlinewebfonts.com/c/e20953cc1e4a860f83954b5da07b4243?family=GT+Sectra+Book);
+@import url(//db.onlinewebfonts.com/c/a9db6cd9116ff56da3875b35444f0c45?family=GothamBook);
+@import url(//db.onlinewebfonts.com/c/bbb0e26c14f79333dad33f3ed785580c?family=MessinaSansMonoWeb);
+
 * {
     margin: auto;
     padding: auto;
@@ -9,7 +13,7 @@ body {
 }
 
 .part1 {
-    position: absolute;
+    position: relative;
     right: 0;
     left: 0;
     top: 0;
@@ -18,10 +22,14 @@ body {
     z-index: 2;
 }
 
+.logo {
+    position: absolute;
+}
+
 .head-nav-menu{
     position: absolute;
     top: 0;
-    left: 55%;
+    left: 50%;
     width: 40%;
     padding: auto;
     z-index: 1000;
@@ -30,14 +38,15 @@ body {
 .head-nav-menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    height: 200px;
-    font-size: 0.9em;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 150px;
 }
 
 .head-nav-item {
-    font-family: sans-serif;
+    font-family: 'GothamBook';
+    font-size: .95em;
+    text-decoration: none;
     color: white;
 }
 
@@ -58,14 +67,51 @@ body {
 
 .video1-title {
     position: absolute;
+    font-family: 'GT Sectra Book';
     left: 25%;
     top: 40%;
-    z-index: 100;
     color: white;
-    font-size: 6.5em;
-    font-weight: 200;
+    font-size: 6.2em;
+    font-weight: 1;
+    line-height: .8;
+}
+
+.part2 {
+    position: relative;
+    padding: 9%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.part2-block1-1 {
+    padding: 0 0 20% 5%;
+}
+
+.part2-title1 {
+    font-family: 'GT Sectra Book';
+    font-size: 2.5em;
+    font-weight: 1;
+}
+
+.part2-title2 {
+    font-size: 2.5em;
+    font-family: 'GothamBook';
+    font-weight: 100;
+}
+
+.part2-block1-context {
+    font-family:sans-serif ;
+    padding: 3% 0 6% 0;
+    color: #777;
+    font-size: 1em;
+    text-align: left;
+    font-weight: 100;
+    line-height: 2em;
+}
+
+/* .part3 {
+    position: relative;
 }
 
 .part3-block1{
@@ -91,3 +137,10 @@ body {
     font-family:sans-serif;
     color: gray;
 }
+
+.part3-block2-img1 {
+    position:absolute;
+    left: 0;
+    width: 10%;
+    height: 100%;
+} */
