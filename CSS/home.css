@@ -3,55 +3,50 @@
     padding: auto;
 }
 
-/* header{
-    visibility: inherit;
-    opacity: 1;
-    transform: translate(0%, -100%);
-}
-
-.c-site-head__nav{
+body {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    pointer-events: all;
-    position: relative;
-    z-index: 2;
+    flex-direction: column;
 }
 
-.c-site-head-menu__item {
-    position: relative;
-    display: block;
-    margin-right: 1.5rem;
-    overflow: hidden;
-    z-index: 2;
-} */
-
-.showcase {
+.part1 {
     position: absolute;
     right: 0;
     left: 0;
     top: 0;
-    width: auto;
+    width: 100%;
     min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     z-index: 2;
 }
 
-.showcase header{
+.head-nav-menu{
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 55%;
+    width: 40%;
     padding: auto;
     z-index: 1000;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
 }
 
-.showcase video {
+.head-nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 200px;
+    font-size: 0.9em;
+}
+
+.head-nav-item {
+    font-family: sans-serif;
+    color: white;
+}
+
+.head-nav-item-menu-button {
+    height: 2px;
+    width: 25px;
+}
+
+.part1 video {
     position: absolute;
     top: 0;
     left: 0;
@@ -61,10 +56,38 @@
     opacity: 1.0;
 }
 
-.c-line {
-    position: relative;
-    z-index: 10;
+.video1-title {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    z-index: 100;
     color: white;
-    font-size: 4em;
+    font-size: 6.5em;
     font-weight: 200;
+    display: flex;
+    flex-direction: column;
+}
+
+.part3-block1{
+    position: absolute;
+    left: 3%;
+    padding: 2%
+}
+
+.part3-title1 {
+    font-size: 1.5em;
+    font-family: 'Times New Roman';
+    font-weight: 5;
+}
+
+.part3-title2 {
+    font-size: 1.2em;
+    font-weight: 1;
+}
+
+.part3-title3{
+    display: block;
+    padding: 5% 0 0 0;
+    font-family:sans-serif;
+    color: gray;
 }
