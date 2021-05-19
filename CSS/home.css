@@ -5,7 +5,8 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 0;
+    padding: auto;
 }
 
 .part-one {
@@ -14,7 +15,7 @@ body {
     left: 0;
     top: 0;
     width: 100%;
-    min-height: 100vh;
+    min-height: auto;
     z-index: 2;
 }
 
@@ -33,6 +34,7 @@ body {
     top: 0;
     left: 50%;
     width: 40%;
+    height: auto;
     padding: auto;
     z-index: 1000;
 }
@@ -54,6 +56,7 @@ body {
 
 .head-nav-item :hover {
     text-decoration: underline;
+    text-underline-position: inherit;
 }
 
 .head-nav-item-menu-button {
@@ -66,7 +69,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     opacity: 1.0;
 }
@@ -80,6 +83,39 @@ body {
     font-size: 6.2em;
     font-weight: 1;
     line-height: .8;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.bar1, .bar2 {
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.bar3 {
+    width: 15px;
+    height: 2px;
+    background-color: white;
+    margin: 4px 10px;
+    transition: 0.4s;
+}
+  
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .part2 {
@@ -123,6 +159,10 @@ body {
     line-height: 2em;
 }
 
+.part3 {
+    position: relative;
+}
+
 .part3-block1{
     left: 3%;
     padding: 0% 0% 0 11%;
@@ -152,14 +192,29 @@ body {
     position:absolute;
     left: 4%;
     width: 5%;
-    height: 100%;
+    height: 75%;
 }
 
+.slider-container {
+    padding-left: 12%;
+    box-sizing: border-box;
+    width: 1500px;
+    height: 750px;
+    
+}
 
+.slide-images {
+    display: flex;
+}
+
+.img {
+    padding-right: 2%;
+}
 
 .part6 {
     background-color: #161f1e;
-    width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .footers {

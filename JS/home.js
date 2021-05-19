@@ -22,19 +22,11 @@ document.getElementById("head-one").innerHTML = `<div class="logo">
 </h3>
 <h2 class="head-nav-item-menu">
     <a href="">
-        <button type="button" class="head-nav-item-menu-button" data-stick="topMenu" data-stick-scroll
-            aria-label="Toggle menu">
-            <div class="c-burger">
-                <div class="c-burger__line"></div>
-                <div class="c-burger__line"></div>
-                <div class="c-burger__line"></div>
-
-                <div class="c-burger-close">
-                    <div class="c-burger-close__line1"></div>
-                    <div class="c-burger-close__line2"></div>
-                </div>
-            </div>
-        </button>
+         <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
     </a>
 </h2>
 </ul>`;
@@ -100,3 +92,8 @@ document.getElementById("foot-one").innerHTML = `  <div class="footer-part1">
     </h3>
 </ul>
 </div>`;
+
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
+
