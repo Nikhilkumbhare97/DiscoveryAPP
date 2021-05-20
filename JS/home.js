@@ -20,7 +20,7 @@ document.getElementById("head-one").innerHTML = `<div class="logo">
     <a href=" ">Press</a>
 </h3>
 <h2 class="head-nav-item-menu">
-    <a href=" ">
+    <a href="../HTML/menu.html">
          <div class="container" onclick="myFunction(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>

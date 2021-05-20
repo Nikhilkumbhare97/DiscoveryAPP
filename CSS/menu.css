@@ -1,0 +1,59 @@
+@import url(//db.onlinewebfonts.com/c/e20953cc1e4a860f83954b5da07b4243?family=GT+Sectra+Book);
+
+body {
+    background-color: black;
+}
+
+.menu-head {
+    padding-top: 3.2%;
+    padding-left: 10%;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    width: 81.3%;
+}
+
+#mdiv {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .mdiv {
+    height: 25px;
+    width: 2px;
+    margin-left: 12px;
+    background-color:white;
+    transform: rotate(45deg);
+    Z-index: 1;
+  }
+  
+  .md {
+    height: 25px;
+    width: 2px;
+    background-color: white;
+    transform: rotate(90deg);
+    Z-index: 2;
+  }
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.item :any-link{
+    text-decoration: none;
+    font-family: 'GT Sectra Book';
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    line-height: 1.5em;
+}
+
+.item :hover{
+    text-decoration: underline;
+}
+
