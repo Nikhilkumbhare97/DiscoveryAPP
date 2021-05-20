@@ -91,7 +91,3 @@ document.getElementById("foot-one").innerHTML = `  <div class="footer-part1">
     </h3>
 </ul>
 </div>`;
-
-function myFunction(x) {
-    x.classList.toggle("change");
-  }
