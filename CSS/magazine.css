@@ -1,0 +1,86 @@
+body {
+    background-color:gainsboro;
+}
+.mag-part-one {
+    position: relative;
+}
+
+.mag-img-title {
+    position: absolute;
+    left: 24%;
+    top: 42%;
+    color:white;
+    line-height: .9;
+}
+
+.mag-img-title1 {
+    font-family: 'GT Sectra Book';
+    font-size: 2.5em;
+    font-weight: 1;
+}
+
+.mag-img-title2 {
+    font-family:'GothamBook';
+    font-size: 2.3em;
+    font-weight: 1;
+}
+
+.mag-part-two{
+    margin: 0%;
+    padding-top: 15%;
+    padding-left: 20%;
+}
+
+.mag-sec-one {
+    position: relative;
+    background-color: white;
+    width: 1000px;
+    height: 525px;
+}
+
+.section-part-one {
+    position :absolute;
+    left: -10%;
+    top: -10%;
+}
+
+.section-part-two {
+    padding-left:  50%;
+    padding-top: 15%;
+}
+
+.sub-t-one, .sub-p{
+    color: gray;
+    font-size: 1.2em;
+    padding-bottom: 4%;
+}
+
+.sub-t-two {
+    font-family: 'GT Sectra Book';
+    font-size: 2em;
+    font-weight: 1;
+}
+
+button {
+    width: 180px;
+    height: 75px;
+    background-color: white;
+    font-size: 1.2em;
+    border: 1px solid gray;
+}
+
+.mag-part-three{
+    padding-top: 15%;
+    padding-left: 20%;
+}
+
+.section-part-two-a {
+    padding-left: 10%;
+    padding-top: 15%;
+}
+
+.section-part-one-a {
+    position :absolute;
+    right: -10%;
+    top: -10%;
+}

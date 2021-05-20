@@ -1,0 +1,46 @@
+.fon-parttwo{
+    padding: 5%;
+    text-align: center;
+    font-family: 'GT Sectra Book';
+    font-size: 2.7em;
+    font-weight: 1;
+    line-height: 1.4em;
+}
+
+.fon-partthree {
+    padding: 0 13% 5% 13%;
+    display: flex;
+}
+
+.fon-part-3-two {
+    padding-left: 12%;
+    padding-top: 8%;
+    text-align: left;
+}
+
+.fon-head {
+    font-family: 'GT Sectra Book';
+    font-size: 2.5em;
+    font-weight: 1;
+    padding-bottom: 2%;
+}
+
+.fon-para {
+    font-family: 'GothamBook';
+    color: gray;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding-bottom: 2%;
+}
+
+.fon-button {
+    padding-top: 5%;
+}
+
+.button-fon {
+    width: 200px;
+    height: 70px;
+    font-size: .9em;
+    background-color: gainsboro;
+    border: 1px solid gray;
+}
