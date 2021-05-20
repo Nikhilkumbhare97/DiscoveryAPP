@@ -1,4 +1,3 @@
-
 document.getElementById("head-one").innerHTML = `<div class="logo">
 <a href="../HTML/home.html"><img src="../Assets/images/discoveryLogo.png" width="26%"></a>
 </div>
@@ -6,22 +5,22 @@ document.getElementById("head-one").innerHTML = `<div class="logo">
 <ul class="head-nav-menu">
 
 <h3 class="head-nav-item">
-    <a href="">About DLC</a>
+    <a href="../HTML/home.html">About DLC</a>
 </h3>
 <h3 class="head-nav-item">
-    <a href="">Our Worlds</a>
+    <a href=" ">Our Worlds</a>
 </h3>
 <h3 class="head-nav-item">
-    <a href="">Experiences</a>
+    <a href=" ">Experiences</a>
 </h3>
 <h3 class="head-nav-item">
-    <a href="">Gallery</a>
+    <a href=" ">Gallery</a>
 </h3>
 <h3 class="head-nav-item">
-    <a href="">Press</a>
+    <a href=" ">Press</a>
 </h3>
 <h2 class="head-nav-item-menu">
-    <a href="">
+    <a href=" ">
          <div class="container" onclick="myFunction(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
@@ -96,4 +95,3 @@ document.getElementById("foot-one").innerHTML = `  <div class="footer-part1">
 function myFunction(x) {
     x.classList.toggle("change");
   }
-
