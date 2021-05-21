@@ -12,6 +12,11 @@
     display: flex;
 }
 
+@media screen and (max-width: 600px)  {
+    .fon-partthree {
+        flex-direction: column;
+    }   
+}
 .fon-part-3-two {
     padding-left: 12%;
     padding-top: 8%;

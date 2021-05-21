@@ -1,0 +1,81 @@
+.comp-part-three {
+    padding: 0 10% 5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px)  {
+    .comp-part-three {
+        flex-direction: column;
+    }   
+}
+
+.comp-part-3-one {
+    padding-top: 8%;
+}
+
+
+.comp-part-five{
+    margin: 0%;
+    padding-top: 12%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 8%;
+}
+
+.comp-sec-one {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 800px;
+}
+
+.comp-section-part-one {
+    position :absolute;
+    top: -10%;
+    left: -16.4%;
+}
+
+.comp-section-part-two {
+    padding-left:  50%;
+    padding-top: 15%;
+}
+
+.comp-title1 {
+    font-family: 'GT Sectra Book';
+    font-size: 2.5em;
+    font-weight: 1;
+}
+
+.comp-para2 {
+    font-family: 'GothamBook';
+    color: gray;
+    line-height: 2em;
+}
+
+.comp-part-six {
+    position: relative;
+}
+
+.part-six-text {
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    left: 42%;
+}
+
+.six-title{
+    font-family: 'GothamBook'; 
+    font-size: 3em;
+    line-height: 2em;
+    font-weight: 1;
+}
+
+.six-button {
+    background-color: transparent;
+}
+
+.part-six-text :any-link {
+    text-decoration: none;
+    color: white;
+}
