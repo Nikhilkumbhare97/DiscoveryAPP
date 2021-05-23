@@ -14,10 +14,10 @@ document.getElementById("head-one").innerHTML = `<div class="logo">
     <a href="../HTML/experience.html">Experiences</a>
 </h3>
 <h3 class="head-nav-item">
-    <a href=" ">Gallery</a>
+    <a href="../HTML/gallery.html">Gallery</a>
 </h3>
 <h3 class="head-nav-item">
-    <a href=" ">Press</a>
+    <a href="../HTML/press.html">Press</a>
 </h3>
 <div">
 <h2 class="head-nav-item-menu"> 
@@ -71,28 +71,28 @@ document.getElementById("foot-one").innerHTML = `  <div class="footer-part1">
         <a href="../HTML/experience.html">Experiences</a>
     </h3>
     <h3 class="foot-nav-item">
-        <a href="">Gallery</a>
+        <a href="../HTML/gallery.html">Gallery</a>
     </h3>
     <h3 class="foot-nav-item">
-        <a href="">Press</a>
+        <a href="../HTML/press.html">Press</a>
     </h3>
 </ul>
 <ul class="foot-nav-menu2">
 
     <h3 class="foot-nav-item">
-        <a href="">Magazine</a>
+        <a href="../HTML/magazine.html">Magazine</a>
     </h3>
     <h3 class="foot-nav-item">
-        <a href="">Careers</a>
+        <a href="https://discoverylandco.com/career">Careers</a>
     </h3>
     <h3 class="foot-nav-item">
-        <a href="">Foundation</a>
+        <a href="../HTML/foundation.html">Foundation</a>
     </h3>
     <h3 class="foot-nav-item">
-        <a href="">Comapny</a>
+        <a href="../HTML/company.html">Comapny</a>
     </h3>
     <h3 class="foot-nav-item">
-        <a href="">Contact</a>
+        <a href="https://discoverylandco.com/contact">Contact</a>
     </h3>
     <h3 class="foot-nav-item">
         <a href="">Privacy</a>

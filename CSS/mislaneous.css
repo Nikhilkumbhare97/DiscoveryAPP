@@ -108,3 +108,22 @@
     color: grey;
     padding-bottom: 7%;
 }
+
+
+.gallery-title {
+    position: absolute;
+    left: 15%;
+    top: 42%;
+    color:white;
+    line-height: .9;
+}
+
+.gallery-images {
+    display: flex;
+}
+
+#gallery-head {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 4%;
+}
