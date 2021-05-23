@@ -11,7 +11,7 @@ document.getElementById("head-one").innerHTML = `<div class="logo">
     <a href="../HTML/ourWorlds.html">Our Worlds</a>
 </h3>
 <h3 class="head-nav-item">
-    <a href=" ">Experiences</a>
+    <a href="../HTML/experience.html">Experiences</a>
 </h3>
 <h3 class="head-nav-item">
     <a href=" ">Gallery</a>
@@ -62,13 +62,13 @@ document.getElementById("foot-one").innerHTML = `  <div class="footer-part1">
 <ul class="foot-nav-menu1">
 
     <h3 class="foot-nav-item">
-        <a href="">About DLC</a>
+        <a href="../HTML/aboutDLC.html">About DLC</a>
     </h3>
     <h3 class="foot-nav-item">
-        <a href="">Our Worlds</a>
+        <a href="../HTML/ourWorlds.html">Our Worlds</a>
     </h3>
     <h3 class="foot-nav-item">
-        <a href="">Experiences</a>
+        <a href="../HTML/experience.html">Experiences</a>
     </h3>
     <h3 class="foot-nav-item">
         <a href="">Gallery</a>

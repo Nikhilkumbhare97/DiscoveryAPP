@@ -72,3 +72,39 @@
     color: grey;
     font-family: 'GothamBook';
 }
+
+.experience-part-three {
+    position: relative;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+}
+
+.exp-image {
+    position: relative;
+}
+
+.exp-text {
+    box-sizing: border-box;
+    background-color: white;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    bottom: 20%;
+    left: 60%;
+    padding-left: 3%;
+    padding-top: 5%;
+}
+
+.exp-head {
+    font-family: 'GT Sectra Book';
+    font-size: 2em;
+    font-weight: 1;
+}
+
+.exp-para {
+    font-family: 'GothamBook';
+    line-height: 1.5em;
+    color: grey;
+    padding-bottom: 7%;
+}
