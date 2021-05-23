@@ -1,19 +1,3 @@
-myFunction = (p1, p2 , p3)  => { 
-    `<img src= "p1" ></img>
-    <h1 class="mag-img-title">
-        <div class="mag-img-title1">
-            `(p2)` <style>
-            </style>
-        </div>
-        <span>
-            <div class="mag-img-title2">`(p3)`</div>
-        </span>
-    </h1>`
-}
-
-
-document.getElementById("mag-img-parts").innerHTML = myFunction (`../Assets/images/magazine/first.jpg`,` Discovery Life`,`Magazine`)
-
 document.getElementById("image-section").innerHTML = `<div class="mag-part-two">
 <section class="mag-sec-one">
     <div class="section-part-one">

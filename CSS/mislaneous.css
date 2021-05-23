@@ -1,0 +1,49 @@
+@import url(//db.onlinewebfonts.com/c/e20953cc1e4a860f83954b5da07b4243?family=GT+Sectra+Book);
+@import url(//db.onlinewebfonts.com/c/a9db6cd9116ff56da3875b35444f0c45?family=GothamBook);
+@import url(//db.onlinewebfonts.com/c/bbb0e26c14f79333dad33f3ed785580c?family=MessinaSansMonoWeb);
+
+.dlc-part-three {
+    display: flex;
+    padding: 2% 10% 7% 10%;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 600px)  {
+    .dlc-part-three {
+        flex-direction: column;
+    }   
+}
+
+.dlc-p3-two {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dlc-p3-two-one {
+    font-family: 'GT Sectra Book';
+    font-size: 2.5em;
+    font-weight: 1;
+}
+
+.dlc-p3-two-two {
+    font-family: 'GothamBook';
+    font-size: 1em;
+    color: grey;
+    font-weight: 1;
+    line-height: 1.8em;
+    padding-bottom: 30%;
+}
+
+.world {
+    background-color: black;
+}
+
+.ourworld-box {
+    position: relative;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+}

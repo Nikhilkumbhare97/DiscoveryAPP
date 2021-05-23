@@ -8,7 +8,7 @@ document.getElementById("head-one").innerHTML = `<div class="logo">
     <a href="../HTML/aboutDLC.html">About DLC</a>
 </h3>
 <h3 class="head-nav-item">
-    <a href=" ">Our Worlds</a>
+    <a href="../HTML/ourWorlds.html">Our Worlds</a>
 </h3>
 <h3 class="head-nav-item">
     <a href=" ">Experiences</a>
@@ -21,11 +21,13 @@ document.getElementById("head-one").innerHTML = `<div class="logo">
 </h3>
 <div">
 <h2 class="head-nav-item-menu"> 
+    <a href="../HTML/menu.html">
          <div id="menu-bars" class="container" onclick="myFunction(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
+    </a>
 </h2>
 </div>
 
