@@ -100,6 +100,17 @@ document.getElementById("foot-one").innerHTML = `  <div class="footer-part1">
 </ul>
 </div>`;
 
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
 // repeatImage = (p1,p2,p3) => {
 //     let abc =`<img src="../Assets/images/${p1}"></img>
 //     <h1 class="mag-img-title">
