@@ -5,7 +5,7 @@ document.getElementById("head-one").innerHTML = `<div class="logo">
 <ul class="head-nav-menu">
 
 <h3 class="head-nav-item">
-    <a href="../HTML/home.html">About DLC</a>
+    <a href="../HTML/aboutDLC.html">About DLC</a>
 </h3>
 <h3 class="head-nav-item">
     <a href=" ">Our Worlds</a>
@@ -19,16 +19,22 @@ document.getElementById("head-one").innerHTML = `<div class="logo">
 <h3 class="head-nav-item">
     <a href=" ">Press</a>
 </h3>
-<h2 class="head-nav-item-menu">
-    <a href="../HTML/menu.html">
-         <div class="container" onclick="myFunction(this)">
+<div">
+<h2 class="head-nav-item-menu"> 
+         <div id="menu-bars" class="container" onclick="myFunction(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
-    </a>
 </h2>
+</div>
+
 </ul>`;
+
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+
 
 document.getElementById("foot-one").innerHTML = `  <div class="footer-part1">
 <div class="footer-logo">
