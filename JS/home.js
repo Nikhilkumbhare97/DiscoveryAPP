@@ -111,6 +111,7 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
 }
 
+
 // repeatImage = (p1,p2,p3) => {
 //     let abc =`<img src="../Assets/images/${p1}"></img>
 //     <h1 class="mag-img-title">
@@ -126,6 +127,6 @@ function showPage() {
 // }
 
 // document.getElementById("comp-part-ones").innerHTML = repeatImage("Company/image1.jpg", "Extraordinary vision,", "unparalleled results");
-// document.getElementsById("mag-img-parts").innerHTML = repeatImage("magazine/first.jpg", "Discovery Life", "Magazine");
+// document.getElementsById("comp-part-ones").innerHTML = repeatImage("magazine/first.jpg", "Discovery Life", "Magazine");
 // document.getElementById("fond-part-one").innerHTML = repeatImage("Foundation/image1.jpg", "Every child", "matters");
 // document.getElementById("about-dlc-repeat").innerHTML = repeatImage("about DLC/image1.jpg", "Creating your ", "perfect world");
